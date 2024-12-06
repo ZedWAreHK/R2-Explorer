@@ -4,6 +4,9 @@ compatibility_date = "2024-12-01"
 
 # Bind R2 Buckets to your application.
 # Docs: https://r2explorer.dev/getting-started/add-r2-buckets/
-# [[r2_buckets]]
-# binding = "MY_BUCKET"
-# bucket_name = "my-bucket"
+[[r2_buckets]]
+binding = "tsinghua"
+bucket_name = "tsinghua R2 (APAC)"
+[[r2_buckets]]
+binding = "reversal"
+bucket_name = "reversal R2 (WNAM)"
