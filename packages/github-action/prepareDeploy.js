@@ -38,6 +38,7 @@ let wranglerConfig = `
 name = "${R2EXPLORER_WORKER_NAME}"
 compatibility_date = "2023-05-12"
 main = "src/index.ts"
+account_id = "93ca362779be5aadf64842847b03a4e7"
 `;
 
 if (R2EXPLORER_DOMAIN) {
